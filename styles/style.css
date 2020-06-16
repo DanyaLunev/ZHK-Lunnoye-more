@@ -1,35 +1,48 @@
 .text-example {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    margin: 10% 0;
-    min-height: 200px;
-    background-color: rgba(33, 33, 33, .3);
-    align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	margin: 10% 0;
+	min-height: 200px;
+	background-color: rgba(33, 33, 33, 0.3);
+	align-items: center;
 }
 
 .navbar {
-    text-align:center;
-    width: 100%;
+	text-align: right;
+	width: 85%;
 }
 .navbar ul {
-    display:inline-block;
+	display: inline-block;
 }
 .navbar li {
-    float:left;
+	float: left;
 }
 .navbar li + li {
-    margin-left:20px;
+	margin-left: 30px;
 }
 
+.navbar-lu {
+	text-align: center;
+	width: 10%;
+}
+.navbar-lu ul {
+	display: inline-block;
+}
+.navbar-lu li {
+	float: left;
+}
+.navbar-lu li + li {
+	margin-left: 30px;
+}
 
 .flex {
-    display: flex;
+	display: flex;
 }
 
 .flex-horizontal-center {
-    justify-content: center;
+	justify-content: center;
 }
