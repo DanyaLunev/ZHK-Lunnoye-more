@@ -71,3 +71,12 @@
 	font-size: 14px;
 	padding: 5px 5px;
 }
+
+.test {
+	width: 10000px;
+	height: 3000px;
+	/*background-color: blue;*/
+	background-image: src="images/logo.svg" width="30" height="35" alt="Логотип";
+	background-position: left;
+	background-repeat: no-repeat;
+}
