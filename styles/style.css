@@ -1,6 +1,6 @@
 .navbar {
 	text-align: right;
-	width: 85%;
+	width: 1500px;
 }
 .navbar ul {
 	display: inline-block;
@@ -9,12 +9,12 @@
 	float: left;
 }
 .navbar li + li {
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 .navbar-lu {
 	text-align: center;
-	width: 10%;
+	width: 10%	;
 }
 .navbar-lu ul {
 	display: inline-block;
@@ -57,11 +57,12 @@
 .imgblock {
 	position: relative;
 	display: inline-block;
+	text-align: center;
 }
 
 .imgblock img {
 	height: 400px;
-	width: 1600px;
+	width: 1520px;
 }
 .imgblock span {
 	color: #fff;
@@ -73,10 +74,10 @@
 }
 
 .test {
-	width: 10000px;
-	height: 3000px;
+	width: 100px;
+	height: 300px;
 	/*background-color: blue;*/
-	background-image: src="images/logo.svg" width="30" height="35" alt="Логотип";
+	background-image: "images/logo.svg" alt="Логотип";
 	background-position: left;
 	background-repeat: no-repeat;
 }
