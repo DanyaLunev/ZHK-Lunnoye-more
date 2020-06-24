@@ -58,10 +58,11 @@
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	background-image: url("/images/banner.png");
 }
 
 .imgblock img {
-	height: 400px;
+	height: 600px;
 	width: 1520px;
 }
 .imgblock span {
