@@ -14,7 +14,7 @@
 
 .navbar-lu {
 	text-align: center;
-	width: 10%	;
+	width: 10%;
 }
 .navbar-lu ul {
 	display: inline-block;
@@ -27,8 +27,20 @@
 }
 
 .firstBlock {
-	text-align: left;
-	width: 100%;
+	text-align: center;
+	width: 1500px;
+	height: 50px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 100px;
+}
+.firstBlock2 {
+	text-align: center;
+	width: 1500px;
+	height: 50px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 100px;
 }
 .firstBlock ul {
 	display: inline-block;
@@ -50,35 +62,26 @@
 
 .img {
 	object-fit: cover;
-	width: 1600px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 }
 
 .imgblock {
-	position: relative;
-	display: inline-block;
-	text-align: center;
 	background-image: url("/images/banner.png");
 }
 
-.imgblock img {
+/*.imgblock img {
 	height: 600px;
 	width: 1520px;
 }
+
 .imgblock span {
 	color: #fff;
 	position: absolute;
 	right: 0;
 	bottom: 150px;
-	font-size: 14px;
+	font-size: 10px;
 	padding: 5px 5px;
 }
+*/
 
-.test {
-	width: 100px;
-	height: 300px;
-	/*background-color: blue;*/
-	background-image: "images/logo.svg" alt="Логотип";
-	background-position: left;
-	background-repeat: no-repeat;
-}
