@@ -11,33 +11,25 @@ header {
 	text-align: left;
 	width: 100%;
 	padding: 13px;
+	font-weight: bold;
 }
 .navbar {
-	text-align: right;
-	width: 1500px;
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	text-align: center;
 }
-.navbar ul {
-	display: inline-block;
+.navbar a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+}
+.navbar a:hover {
+	border-radius: 2px 5px;
+	background-color: #d9ff00;
 }
 .navbar li {
-	float: left;
-}
-.navbar li + li {
-	margin-left: 10px;
-}
-
-.navbar-lu {
-	text-align: center;
-	width: 10%;
-}
-.navbar-lu ul {
-	display: inline-block;
-}
-.navbar-lu li {
-	float: left;
-}
-.navbar-lu li + li {
-	margin-left: 30px;
+	display: inline;
 }
 
 .firstBlock {
@@ -68,6 +60,44 @@ header {
 
 .flex {
 	display: flex;
+}
+
+:root {
+	--min-height-block: 500px;
+	--width-block: 1000px;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.flex-grow-2 {
+	flex-grow: 2;
+}
+
+.w-500px {
+	width: 500px !important;
+}
+
+.bg-white {
+	background: #ffffff;
+}
+
+.items-flexibility {
+	display: flex;
+	width: 100%;
+}
+
+.flex-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: var(--min-height-block);
+	width: var(--width-block);
+	padding: 100px;
+	box-sizing: border-box;
+
+	color: rgb(0, 0, 0);
 }
 
 .flex-horizontal-center {
