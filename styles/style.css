@@ -1,3 +1,8 @@
+:root {
+	--device-width: 400px;
+	--content-width: 1000px;
+}
+
 header {
 	width: 100%;
 	background: #fff;
@@ -32,10 +37,43 @@ header {
 	display: inline;
 }
 
+.firstblock {
+	margin-top: 0;
+	padding: 25px 0 40px;
+	color: rgb(255, 255, 255);
+
+	background-position: center;
+	background-image: url(/images/banner.png);
+}
+
+.content-center {
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	/*width: var(--content-width);*/
+	text-align: center;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.btn {
+	padding: 10px 17px;
+	font-size: 18px;
+	text-decoration: none;
+
+	border-style: double;
+	border-radius: 5px;
+	border: 2px solid;
+	background-color: inherit;
+	color: cornsilk;
+}
+
 .firstBlock {
 	text-align: center;
 	width: 1500px;
-	height: 50px;
+	height: 30px;
 	color: #fff;
 	font-size: 50px;
 	font-weight: 100px;
@@ -43,7 +81,7 @@ header {
 .firstBlock2 {
 	text-align: center;
 	width: 1500px;
-	height: 50px;
+	height: 30px;
 	color: #fff;
 	font-size: 20px;
 	font-weight: 100px;
@@ -60,11 +98,6 @@ header {
 
 .flex {
 	display: flex;
-}
-
-:root {
-	--min-height-block: 500px;
-	--width-block: 1000px;
 }
 
 .flex-grow-1 {
@@ -98,6 +131,11 @@ header {
 	box-sizing: border-box;
 
 	color: rgb(0, 0, 0);
+}
+
+.advantages {
+	text-align: center;
+	width: 1000px;
 }
 
 .flex-horizontal-center {
