@@ -1,6 +1,6 @@
 :root {
 	--device-width: 400px;
-	--content-width: 1000px;
+	--content-width: 1500px;
 }
 
 header {
@@ -47,10 +47,10 @@ header {
 }
 
 .content-center {
-	/*display: flex;*/
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*width: var(--content-width);*/
+	width: var(--content-width);
 	text-align: center;
 }
 
@@ -67,7 +67,7 @@ header {
 	border-radius: 5px;
 	border: 2px solid;
 	background-color: inherit;
-	color: cornsilk;
+	color: rgb(255, 255, 255);
 }
 
 .firstBlock {
@@ -96,6 +96,27 @@ header {
 	margin-left: 100px;
 }
 
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.card-small {
+	flex-basis: 350px;
+	font-size: 17px;
+}
+
+.align-cards h2 {
+	margin-bottom: 0;
+}
+
+.align-cards p {
+	margin-top: 10px;
+}
+
 .flex {
 	display: flex;
 }
@@ -108,61 +129,6 @@ header {
 	flex-grow: 2;
 }
 
-.w-500px {
-	width: 500px !important;
-}
-
-.bg-white {
-	background: #ffffff;
-}
-
-.items-flexibility {
-	display: flex;
-	width: 100%;
-}
-
-.flex-item {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: var(--min-height-block);
-	width: var(--width-block);
-	padding: 100px;
-	box-sizing: border-box;
-
-	color: rgb(0, 0, 0);
-}
-
-.advantages {
-	text-align: center;
-	width: 1000px;
-}
-
 .flex-horizontal-center {
 	justify-content: center;
 }
-
-.img {
-	object-fit: cover;
-	width: 200px;
-	height: 200px;
-}
-
-.imgblock {
-	background-image: url("/images/banner.png");
-}
-
-/*.imgblock img {
-	height: 600px;
-	width: 1520px;
-}
-
-.imgblock span {
-	color: #fff;
-	position: absolute;
-	right: 0;
-	bottom: 150px;
-	font-size: 10px;
-	padding: 5px 5px;
-}
-*/
