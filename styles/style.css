@@ -10,6 +10,7 @@ header {
 	margin: 0px;
 	padding: 0px;
 }
+
 .title {
 	font-size: 20px;
 	padding-top: 13px;
@@ -18,21 +19,25 @@ header {
 	padding: 13px;
 	font-weight: bold;
 }
+
 .navbar {
 	margin: 0;
 	padding: 0;
 	width: 670px;
 	text-align: center;
 }
+
 .navbar a {
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-weight: bold;
 }
+
 .navbar a:hover {
 	border-radius: 2px 5px;
 	background-color: #d9ff00;
 }
+
 .navbar li {
 	display: inline;
 }
@@ -86,12 +91,15 @@ header {
 	font-size: 20px;
 	font-weight: 100px;
 }
+
 .firstBlock ul {
 	display: inline-block;
 }
+
 .firstBlock li {
 	float: right;
 }
+
 .firstBlock li + li {
 	margin-left: 100px;
 }
